@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg_changer {
+  border: 2px dotted green;
+  padding: 12px;
+  text-align: center;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  width: 6rem;
+  border: 1px solid orange;
+  margin: 4px;
+  cursor: pointer;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+p{
+    text-align: center;
+}
